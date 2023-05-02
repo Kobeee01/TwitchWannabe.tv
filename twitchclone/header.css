@@ -1,0 +1,176 @@
+nav {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0 3px 1px -2px rgb(221, 220, 220);
+}
+
+.p1,
+.p2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.p1,
+.p2 {
+  transition: color 0.15s;
+  cursor: pointer;
+}
+.p1:hover,
+.p2:hover {
+  color: #6034b2;
+}
+.twitch-logo {
+  height: 28px;
+  width: 28px;
+  margin-left: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+.dots {
+  height: 20px;
+  width: 20px;
+}
+.header1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 380px;
+}
+.inpt {
+  border: 2px solid;
+  border-color: transparent;
+  border-radius: 6px 0px 0px 6px;
+  padding: 10px;
+  width: 300px;
+  transition: border-color 0.3s linear;
+  background-color: rgb(230, 229, 229);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inpt:hover {
+  border-color: rgb(182, 180, 180);
+  border-radius: 6px 0px 0px 6px;
+}
+.inpt:focus {
+  outline: 2px solid #6034b2;
+  border-radius: 6px 0px 0px 6px;
+  background-color: white;
+  border: none;
+  outline-offset: -2px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 304px;
+}
+.magnifying-glass {
+  width: 20px;
+  height: 20px;
+}
+.glass-cell {
+  background-color: rgb(230, 229, 229);
+  padding: 9.5px;
+  margin-left: 2px;
+  display: flex;
+  align-items: center;
+  border-radius: 0px 6px 6px 0px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.glass-cell:hover {
+  opacity: 0.7;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.your-bar {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.svn-tv,
+.gem-icon,
+.whisper,
+.inbox,
+.crown {
+  width: 20px;
+  height: 20px;
+}
+.dots-container,
+.svn-tv-container,
+.whisper-container,
+.inbox-container,
+.crown-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.crown-container,
+.whisper-container,
+.inbox-container {
+  position: relative;
+}
+.loot,
+.messages,
+.whispers {
+  position: absolute;
+  top: -12px;
+  right: -3px;
+  background-color: rgb(233, 5, 5);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 10px;
+}
+.dots-container:hover,
+.svn-tv-container:hover,
+.bits:hover,
+.whisper-container:hover,
+.inbox-container:hover,
+.crown-container:hover {
+  background-color: rgb(209, 209, 209);
+}
+.gem-icon {
+  margin-right: 8px;
+}
+.bits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(235, 234, 234);
+  width: 100px;
+  height: 30px;
+  white-space: nowrap;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.buy {
+  margin: 0;
+  font-size: 15px;
+}
+
+.profile-photo {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  cursor: pointer;
+}

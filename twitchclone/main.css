@@ -1,0 +1,15 @@
+p {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+aside {
+  background-color: brown;
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  top: 59px;
+  width: 180px;
+}
+main {
+  background-color: blanchedalmond;
+}
